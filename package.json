@@ -32,5 +32,19 @@
   "devDependencies": {
     "@babel/core": "^7.9.0"
   },
+  "expo": {
+    "name": "Uber-clone",
+    "icon": "./path/to/your/app-icon.png",
+    "version": "1.0.0",
+    "slug": "uber-clone-slug",
+    "ios": {
+      "bundleIdentifier": "com.nikhilknick.uberclone",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.nikhilknick.uberclone",
+      "versionCode": 1
+    }
+  },
   "private": true
 }
